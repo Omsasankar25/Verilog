@@ -1,5 +1,5 @@
 # Verilog
-# Verilog Design Code
+# Inverter Design Code
 module Ominverter(y,a);
 	output y;
 	input a;
@@ -7,7 +7,7 @@ module Ominverter(y,a);
 	assign y=~a;
 	
 endmodule
-# Verilog Testbench Code
+# Inverter Testbench Code
 module Ominvertertb;
   reg a;
   wire y;
